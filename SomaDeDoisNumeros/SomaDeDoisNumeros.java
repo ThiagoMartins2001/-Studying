@@ -5,5 +5,4 @@ public class SomaDeDoisNumeros {
         int soma = numero1 + numero2;
         System.out.println("A soma de " + numero1 + " e " + numero2 + " é: " + soma);
     }
-
 }
