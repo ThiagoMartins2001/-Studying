@@ -20,8 +20,8 @@ public class IdadePassagem {
             System.out.printf("Valor a pagar: R$ %.2f%n", value);
         } else if (age >= 60) {
             double desconto = value * 0.30;
-            double valorfinal = value - desconto;
-            System.out.printf("Valor a pagar: R$ %.2f%n", valorfinal);
+            double valorFinal = value - desconto;
+            System.out.printf("Valor a pagar: R$ %.2f%n", valorFinal);
         }
         sc.close();
     }
