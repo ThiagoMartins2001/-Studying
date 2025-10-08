@@ -24,7 +24,6 @@ public class TempoEstacionamento {
             valorTotal = (horas * 3) + 20;
             System.out.printf("Valor a pagar: R$ %.2f%n", valorTotal);
         }
-
         sc.close();
     }
 }
